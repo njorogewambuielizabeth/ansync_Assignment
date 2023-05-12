@@ -1,4 +1,5 @@
-// Write an asynchronous function that accepts a
+// Question 1
+//Write an asynchronous function that accepts a
 // message string and a delay time in milliseconds.
 // The function should log the message to the console 
 //after the specified delay time
@@ -18,7 +19,7 @@ delayLog('i will go home', 3000)
     console.log('i am studying for my future kids');
   });
 
-
+//Question 2
 // You have an array of user IDs and a function 
 //getUserData(id) that returns a Promise with user 
 //data when given a user ID. Write an asynchronous 
@@ -49,7 +50,7 @@ async function fetchUserDataSequentially() {
 
 fetchUserDataSequentially();
 
- 
+ //Question 3
 //You have an asynchronous function performTask() 
 //that returns a Promise. The Promise resolves if 
 //the task is successful and rejects if there's an 
